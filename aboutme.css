@@ -84,7 +84,7 @@ a:link{
 }
 
 a:visited{
-    color:Green;
+    color: purple;
     text-decoration: none;
 }
 
@@ -94,7 +94,7 @@ a:hover{
 }
 
 a:active{
-    color: blue;
+    color: lightblue;
     text-decoration: underline;
 }
 
