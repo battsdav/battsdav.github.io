@@ -1,0 +1,37 @@
+body{
+    background-color:lightgoldenrodyellow;
+    font-size:18px;
+}
+
+li {
+    border-right:3px darkolivegreen;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:lightgoldenrodyellow;
+}
+    
+ul {
+    position: fixed;
+    top: 0;
+    width: 60%;
+    border: 2.5px solid black;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkolivegreen;
+}
+    
+.active {
+    background-color:maroon;
+}    
