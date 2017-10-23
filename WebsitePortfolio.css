@@ -1,0 +1,65 @@
+body{
+    background-color:lightgoldenrodyellow;   
+}
+
+p {
+    font-family:Georgia;
+}
+
+h1{
+    font-family:courier;
+}
+
+h2{
+    font-family: 'Baloo Tammudu', cursive;
+}
+li {
+    border-right:1px solid black;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color:lightgoldenrodyellow
+}
+    
+ul {
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: DarkOliveGreen;
+    width: 60%;
+    border: 3.0px  maroon;
+}
+    
+.active {
+    background-color:maroon;
+}    
+
+table, th, td {
+    border: 5px  solid black;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+th {
+    height: 50px;
+}
+
+img {
+    width:100%;
+   
+}
