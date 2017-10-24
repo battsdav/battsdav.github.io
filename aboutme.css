@@ -1,0 +1,142 @@
+body{
+    background-color: LightGoldenRodYellow;
+}
+
+h2{
+    text-align:center;
+    font-size:20px;
+    font-family: 'Baloo Tammudu', cursive;
+    color: DarkOliveGreen;
+    background-color:rgb(34,139,34);
+    background-color:rgba(34,139,34,.30);
+}
+
+h1{
+    font-size:20px;
+    font-family:courier;
+    color: DarkOliveGreen;
+}
+
+p{
+    font-size:50px;
+    font-family:georgia;
+    color:#800000	;
+    line-height:1.1;
+}
+
+li{
+    font-size:18px;
+    font-family:'Roboto', sans-serif;
+    line-height:3.5;
+    list-style-type: square;
+    
+    
+}
+ol{
+    list-style-type:upper-roman;
+}
+
+.header{
+    margin-right:15%;
+    margin-left:15%;
+    border: 6px solid black;
+    background-color: maroon;
+    padding: 0 30 30 30;
+    margin-top: 0;
+    color: Maroon;
+    
+}
+
+.information{
+     margin-right:15%;
+    margin-left:15%;
+}
+
+.list{
+     margin-right:15%;
+    margin-left:15%;
+    margin-top: 0;
+    padding: 0;
+   list-style-type:upper-roman;
+  
+}
+
+.topics{
+     margin-right:15%;
+    margin-left:15%;
+    color: Darkgreen;
+    font-size:30px;
+    text-decoration:underline;
+    list-style-type:none;
+}
+
+img{
+    border-radius:50%;
+    display: block;
+    margin: auto;
+    height: 30%;
+    width: 30%;
+}
+
+a:link{
+    color:OliveGreen;
+    text-decoration: none;
+}
+
+a:visited{
+    color:LightGreen;
+    text-decoration: none;
+}
+
+a:hover{
+    color:Green;
+    text-decoration: underline;
+}
+
+a:active{
+    color: purple;
+    text-decoration: underline;
+}
+
+li:hover{
+    font-size: 15px;
+    background-color: lightgoldenrodyellow;
+    }
+
+.active {
+    background-color:maroon;
+}    
+
+#NavbarUl {
+    position: fixed;
+    top: 0;
+    list-style-type: none;
+    margin: 0;
+    padding:0 ;
+    overflow: hidden;
+    background-color: DarkOliveGreen;
+    width: 60%;
+    height:70px;
+    border: 6px  black;
+    
+}
+
+#NavbarList {
+    border-right:5px solid black;
+    float:left;
+}
+
+#NavbarList,#NavbarAnchor {
+    display: block;
+    color: black;
+    text-align:center;
+    padding: 10px 10px;
+    text-decoration: none;
+    background-color:darkolivegreen;
+}
+
+#NavbarList,#NavbarAnchor:hover{
+     background-color:darkolivegreen;
+    
+}
+   
