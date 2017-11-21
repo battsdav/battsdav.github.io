@@ -1,0 +1,54 @@
+body{
+    background-image: url("Donut.png");
+}
+
+img{
+    display: block;
+    margin: auto;
+    height: 50%;
+    width: 50%;
+    border: 6px solid maroon;
+    background-color: maroon;
+    padding: 0 30 30 30;
+}
+
+p{
+    color:maroon;
+    font-size: 22px;
+    text-align: center;
+}
+
+.header{
+    color: maroon;
+}
+
+.Biography{
+    display:none;
+     background-image: url("Donut.png");
+     color:maroon;
+     font-size:20px;
+     
+}
+
+.Albums{
+    display:none;
+    color:maroon;
+    background-image: url("Donuts2.png");
+}
+
+.SocialMedia{
+    display:none;
+     background-image: url("Donut4.png");
+     color:white;
+}
+
+.Facts{
+    display:none;
+     background-image: url("Ofwgkta.png");
+     color:darkolivegreen;
+}
+
+.Shows{
+    display:none;
+     background-image: url("Donut6.png");
+}
