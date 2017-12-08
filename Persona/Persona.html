@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- Bootstrap -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
+
+        <!-- jQuery  -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        
+        <!-- Custom Libraries -->
+        <script src="Persona.js" type="text/javascript" charset="utf-8"></script>        
+        <link href="Persona.css" rel="stylesheet" type="text/css">
+        
+        <link href="https://fonts.googleapis.com/css?family=Aclonica" rel="stylesheet">
+        
+        <title>Persona</title>
+    </head>
+    <body>
+        <h1>Persona</h1>
+        <h3>The store to find your persona.</h3>
+        
+
+
+        <div class="btn-group">
+        <button class="btn-primary btn col persona "><img class=img-button src="Persona4.Png" alt="Persona 5"></button>
+        <button class="btn-primary btn col southpark "> <img class=img-button src="SouthPark.jpg" alt="South Park Fractured But Whole"></button>
+        <button class="btn-primary btn col nier "><img class=img-button src="Nier.jpg" alt="Nier Automata"></button>
+        <button class="btn-primary btn col shadow "><img class=img-button src="ShadowOfWar.jpg" alt="Shadow Of War"></button>
+        </div>
+                    <div class="row">
+            <!-- Persona -->
+            <label for="Quantity" class="col-6">Persona</label>
+            <input type="number" id="quantity" class="form-control col-4">
+            <!-- South Park -->
+            <label for="southparkQuantity" class="col-6">South Park</label>
+            <input type="number" id="southparkquantity" class="form-control col-4">
+            <!-- Nier -->
+            <label for="nierQuantity" class="col-6">Nier</label>
+            <input type="number" id="nierquantity" class="form-control col-4">
+            <!-- Shadow Of War -->
+            <label for="shadowQuantity" class="col-6">Shadow of War</label>
+            <input type="number" id="shadowquantity" class="form-control col-4">
+            </div>
+            
+            
+            <button class="btn-primary btn col get ">Get Price</button>
+            <div class="row total">Total:<div class="total2">   0.00</div></div>
+            <div class="row tax">Tax:<div class="tax2"> 0.00</div></div>
+            <div class="row grandtotal">Grand Total:<div class="grandtotal2">   0.00</div></div>
+
+    </body>
+</html>
