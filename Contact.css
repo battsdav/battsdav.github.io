@@ -35,3 +35,7 @@ ul {
 .active {
     background-color:maroon;
 }    
+.img-{
+    width:180px;
+    height:200px;
+}
