@@ -51,14 +51,13 @@ function init() {
     scene.setSize(600,300);
     paddle = new Paddle();
     paddle2 = new Paddle();
-    moveSound = new Sound("https://jelaw21.github.io/Resources/pop.wav");
+    moveSound = new Sound("https://jlaw21.github.io/Resources/pop.wav");
     EPICMUSIC = new Sound("bensound-happyrock.mp3");
     paddle2.setSpeed(10);
     paddle2.setBoundAction(BOUNCE);
     paddle.setPosition(15, scene.height / 2);
     paddle2.setPosition(scene.width - 20, scene.height / 2);
-    border = new Sprite(scene, "border.png", 100, 50);
-    ball = new Sprite(scene, "https://aharrisbooks.net/h5g/h5g_5/redBall.png" ,25, 25);
+    ball = new Sprite(scene, "http://aharrisbooks.net/h5g/h5g_5/redBall.png" ,25, 25);
     ball.setMoveAngle(60);
     ball.setSpeed(8);
     ball.setBoundAction(BOUNCE);
