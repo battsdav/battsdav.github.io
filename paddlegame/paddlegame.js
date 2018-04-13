@@ -47,7 +47,7 @@ function Paddle() {
 
 
 function init() {
-    scene = new Scene();
+    var scene = new Scene();
     scene.setSize(600,300);
     paddle = new Paddle();
     paddle2 = new Paddle();
